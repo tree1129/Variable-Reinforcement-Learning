@@ -1,0 +1,42 @@
+project: tree_Reinforcement_Learning
+algorithm: sac
+# A100 deployment default. Override with --device cpu when CUDA is unavailable.
+device: cuda
+seed: 20260913
+max_episode_steps: 900
+
+# Policy action is normalized. The backend/safety wrapper applies these limits.
+action:
+  dimensions: 7
+  position_delta_m: 0.010
+  rotation_delta_rad: 0.0872664626
+  gripper_range: [-1.0, 1.0]
+
+training:
+  total_timesteps: 300000
+  learning_rate: 0.0003
+  buffer_size: 100000
+  batch_size: 256
+  learning_starts: 5000
+  gamma: 0.99
+  tau: 0.005
+  ent_coef: auto
+  eval_every_steps: 10000
+
+reward:
+  distance_progress: 1.0
+  # Reach the next target before grasping; object-to-hole alone is constant pre-grasp.
+  approach_progress: 1.25
+  orientation_progress: 0.25
+  grasp_success: 1.0
+  insertion_success: 5.0
+  all_inserted: 4.0
+  retract_success: 1.0
+  action_cost: 0.002
+  time_penalty: 0.001
+  forbidden_contact: 8.0
+  box_moved: 8.0
+  excessive_force: 2.0
+  max_box_displacement_m: 0.005
+  max_contact_force_n: 25.0
+  interaction_height_m: 0.080

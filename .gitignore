@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Training outputs and local datasets
+outputs/
+checkpoints/
+datasets/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+*.parquet
+*.bag
+*.db3
+*.mcap
+*.log
+*.pid
+
+# Runtime/private files
+.env
+.env.*
+!.env.example
+.runtime/
+.DS_Store
+._*
+.vscode/
+.idea/

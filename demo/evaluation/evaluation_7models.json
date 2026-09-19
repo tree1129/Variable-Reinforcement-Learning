@@ -1,0 +1,3202 @@
+{
+  "limitations": [
+    "Fixed deterministic scene reset; different seeds do not randomize geometry.",
+    "Proxy kinematic grasp/insertion, not validated physical insertion.",
+    "Deterministic: one rollout per Case. Stochastic: policy-action sampling only."
+  ],
+  "models": {
+    "0": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_a100/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 223,
+          "reward": -2.935194256305694,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.6143726699352285,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 48,
+          "reward": -2.2209462976455687,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.359373248934743,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 560,
+          "reward": -4.486143121242524,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 229,
+          "reward": -2.976339800953865,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 218,
+          "reward": -2.9323720983266828,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 531,
+          "reward": -4.404722264051438,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -2.606595857858656,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.702181095480919,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 447,
+          "reward": -3.9621622031927113,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.6249221658706676,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 600,
+          "reward": -2.615465888977051,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.5909105012416855,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 44,
+          "reward": -2.1990557670593263,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 36,
+          "reward": -2.170859417915344,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 47,
+          "reward": -2.213859035253525,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 58,
+          "reward": -2.256270170211792,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 37,
+          "reward": -2.17500155544281,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.5260638484954856,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 600,
+          "reward": -2.518891839742659,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 600,
+          "reward": -2.4787393710613226,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 600,
+          "reward": -2.5196076674461363,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 600,
+          "reward": -2.495899827361108,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        }
+      ]
+    },
+    "1": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_1/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.0992609136104585,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.2396325709819798,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 111,
+          "reward": -2.532159986495971,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 70,
+          "reward": -2.2426715333461757,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 421,
+          "reward": -3.646841777801513,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 303,
+          "reward": -3.2428415091037746,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 319,
+          "reward": -3.3199849133491526,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 279,
+          "reward": -3.157871885776519,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 375,
+          "reward": -3.485057177782058,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.4273880653381354,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 600,
+          "reward": -2.491531080126761,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.491166316390037,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 600,
+          "reward": -2.489511285305021,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.461998183727265,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 110,
+          "reward": -2.5316785655021663,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 110,
+          "reward": -2.5289412479400633,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 112,
+          "reward": -2.5351337673664096,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 110,
+          "reward": -2.5277194845676423,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 112,
+          "reward": -2.536937520265579,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 108,
+          "reward": -2.470306752681732,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 246,
+          "reward": -3.06184404361248,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 600,
+          "reward": -2.732004559397697,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 85,
+          "reward": -2.3691844947338105,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 79,
+          "reward": -2.3484449524879456,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        }
+      ]
+    },
+    "2": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_2/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.360686800479889,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.717832976102823,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -2.821550976514817,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.529117966294288,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.4893792097568523,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 600,
+          "reward": -2.564713575839994,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 600,
+          "reward": -2.5230353432893735,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 600,
+          "reward": -2.5102670145034804,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -2.5115063527822503,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.9417825739383705,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 600,
+          "reward": -2.701013831377031,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.6947556154727943,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 600,
+          "reward": -2.6868548600673687,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.825155770301819,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -2.847979543209075,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 600,
+          "reward": -2.6639423441886927,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 600,
+          "reward": -2.776005131006243,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 600,
+          "reward": -2.812631329894065,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 600,
+          "reward": -2.776800637602806,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.3379210160374644,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 600,
+          "reward": -2.1477888633012765,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 600,
+          "reward": -2.5658833421468716,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 600,
+          "reward": -2.786992672562601,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 600,
+          "reward": -2.786902952432629,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        }
+      ]
+    },
+    "3": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_3/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -3.16596565198898,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.649128096580492,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -3.3943603558540096,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.2737839496135694,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -3.109901247024534,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 600,
+          "reward": -3.1453410296440127,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 600,
+          "reward": -3.1413985455036157,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 600,
+          "reward": -3.1291696305274974,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -3.135692225456235,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.6580129196643845,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 600,
+          "reward": -2.6644729704856887,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.677812639594082,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 600,
+          "reward": -2.675131370425225,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.6785088839530915,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 199,
+          "reward": -3.0898344039916985,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 600,
+          "reward": -2.9825002665519693,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 600,
+          "reward": -2.9649263956546745,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 184,
+          "reward": -2.988388318300247,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 181,
+          "reward": -2.9909271576404572,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.48868080329895,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 600,
+          "reward": -2.5560831552743917,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 600,
+          "reward": -2.5533324381113047,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 600,
+          "reward": -2.5352265332937263,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 600,
+          "reward": -2.514060694456103,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        }
+      ]
+    },
+    "4": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_4/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -3.111374609470348,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 54,
+          "reward": -2.228581828117371,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": 125.12920089069996,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 128
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": 25.086815890073744,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 28
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -3.0810475499629995,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 600,
+          "reward": -3.0714362642765045,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 600,
+          "reward": -3.0916697759628278,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 600,
+          "reward": -3.0769544458389277,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -3.086906517267226,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 75,
+          "reward": -2.328923149824142,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 58,
+          "reward": -2.2632681846618654,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 102,
+          "reward": -2.4266540141105652,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 68,
+          "reward": -2.305627165555954,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 110,
+          "reward": -2.4823663136959078,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -2.005827523469926,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 600,
+          "reward": 122.75277995284401,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 126
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 17,
+          "reward": -2.0857050385475158,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 401,
+          "reward": -2.0438840327262873,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 2,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 205,
+          "reward": -1.7973102709452309,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 1,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 120,
+          "reward": 27.322468362410866,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 30,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 102,
+          "reward": 20.422009004990265,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 23,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 111,
+          "reward": 25.374040137608844,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 28,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 25,
+          "reward": -2.1291824691295624,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 107,
+          "reward": 25.399911554892856,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 28,
+            "excessive_force": 1
+          }
+        }
+      ]
+    },
+    "5": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_5/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.812070209264755,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.1469951201677313,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -1.6662220196723954,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 198,
+          "reward": -2.9192624213695524,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.757996711254122,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 600,
+          "reward": -2.8676091153621677,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 468,
+          "reward": -4.118878045678141,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 600,
+          "reward": -3.076379012584687,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -2.909525633096698,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.291610957026482,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 600,
+          "reward": -2.3122390611171704,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.289309190630914,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 600,
+          "reward": -2.3150013818740884,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.659209314584731,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 600,
+          "reward": -2.2000826088190113,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 600,
+          "reward": -2.220860379576684,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 600,
+          "reward": -2.1708522885441788,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 600,
+          "reward": -2.1743628445863754,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 600,
+          "reward": -2.1926081986427293,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 197,
+          "reward": -2.9298543577194214,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 200,
+          "reward": -2.930400235891342,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 152,
+          "reward": -2.760284792423248,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 124,
+          "reward": -2.6216622648239136,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 128,
+          "reward": -2.630097419023514,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        }
+      ]
+    },
+    "7": {
+      "checkpoint": "/root/tree_Reinforcement_Learning/outputs/case4_7_sac_7gpu/gpu_7/sac_case4_7.zip",
+      "num_timesteps": 300000,
+      "episodes": [
+        {
+          "mode": "deterministic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.7216763110160858,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.5794491620063775,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "deterministic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 157,
+          "reward": -2.76256275844574,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "deterministic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.0650111153125765,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910400,
+          "steps": 600,
+          "reward": -2.6847064870595934,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910401,
+          "steps": 600,
+          "reward": -2.672306769013404,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910402,
+          "steps": 600,
+          "reward": -2.7198550734519973,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910403,
+          "steps": 600,
+          "reward": -2.641062723338604,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 4,
+          "seed": 910404,
+          "steps": 600,
+          "reward": -2.7246949629783663,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910500,
+          "steps": 600,
+          "reward": -2.598101732015612,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910501,
+          "steps": 600,
+          "reward": -2.5869029443264,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910502,
+          "steps": 600,
+          "reward": -2.6389362492561363,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910503,
+          "steps": 546,
+          "reward": -4.359137569546698,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 5,
+          "seed": 910504,
+          "steps": 600,
+          "reward": -2.7162432837486308,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910600,
+          "steps": 244,
+          "reward": -3.206368874549866,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910601,
+          "steps": 600,
+          "reward": -2.7194347665309926,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910602,
+          "steps": 600,
+          "reward": -2.771954072952271,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910603,
+          "steps": 336,
+          "reward": -3.5953139550685895,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 6,
+          "seed": 910604,
+          "steps": 140,
+          "reward": -1.6331723112265268,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": true,
+          "timeout": false,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {
+            "grasp_success": 1,
+            "excessive_force": 1
+          }
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910700,
+          "steps": 600,
+          "reward": -2.257912679076192,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910701,
+          "steps": 600,
+          "reward": -2.253353148698804,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910702,
+          "steps": 600,
+          "reward": -2.254372435331347,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910703,
+          "steps": 600,
+          "reward": -2.2730442756414404,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        },
+        {
+          "mode": "stochastic",
+          "case": 7,
+          "seed": 910704,
+          "steps": 600,
+          "reward": -2.2704639081954974,
+          "score": 0.0,
+          "success": false,
+          "safety_violation": false,
+          "timeout": true,
+          "inserted": [
+            false,
+            false,
+            false
+          ],
+          "retracted": false,
+          "events": {}
+        }
+      ]
+    }
+  }
+}

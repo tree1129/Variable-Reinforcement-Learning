@@ -1,0 +1,18 @@
+# DESIGN ONLY: proposed values, NOT calibrated hardware safety limits.
+# Not consumed by the proxy trainer or a real robot safety controller.
+# Changing this YAML cannot authorize motion or connect a V4 residual.
+# V4 remains frozen.
+base_policy: /ssd/tree_openpi/checkpoints/pi05_tree_match_shape_v4/match_shape_grasp_state_v4/5999
+mode: shadow_only
+stages: [grasp_residual, align_residual]
+position_residual_m: 0.005
+rotation_residual_rad: 0.0872664626
+action_horizon_steps: 1
+max_force_n: 15.0
+max_box_displacement_m: 0.003
+grasp_confirm_frames: 5
+lift_confirm_m: 0.015
+lift_hold_frames: 5
+align_error_improvement_window: 5
+require_real_insertion_label: true
+allow_hardware_motion: false

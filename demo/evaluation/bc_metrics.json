@@ -1,0 +1,275 @@
+{
+  "dataset_transitions": 109440,
+  "best": {
+    "successes": 8,
+    "mean_score": 10.0,
+    "records": [
+      {
+        "case": 4,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 189,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 4,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 189,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 5,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 199,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 5,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 199,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 6,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 203,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 6,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 203,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 7,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 185,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 7,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 185,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      }
+    ]
+  },
+  "final": {
+    "successes": 12,
+    "mean_score": 10.0,
+    "records": [
+      {
+        "case": 4,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 186,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 4,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 186,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 4,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 186,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 5,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 195,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 5,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 195,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 5,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 195,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 6,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 198,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 6,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 198,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 6,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 198,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 7,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 182,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 7,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 182,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      },
+      {
+        "case": 7,
+        "score": 10.0,
+        "success": true,
+        "safety": false,
+        "steps": 182,
+        "inserted": [
+          true,
+          true,
+          true
+        ],
+        "retracted": true
+      }
+    ]
+  }
+}

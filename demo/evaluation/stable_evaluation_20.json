@@ -1,0 +1,1411 @@
+{
+  "checkpoint": "outputs/case4_7_sac_dual_arm_stable_grasp_v9_4gpu/gpu_6/sac_case4_7_best.zip",
+  "episodes": 20,
+  "successes": 20,
+  "mean_score": 10.0,
+  "safety_violations": 0,
+  "max_grasp_jump_m": 0.030771305784583092,
+  "gripper_open_while_grasped_frames": 0,
+  "records": [
+    {
+      "case": 4,
+      "episode": 0,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 189,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.02729984000325203,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 48,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 118,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 125,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 146,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 153,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 189,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "episode": 1,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 189,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.02729984000325203,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 48,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 118,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 125,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 146,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 153,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 189,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "episode": 2,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 189,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.02729984000325203,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 48,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 118,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 125,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 146,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 153,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 189,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "episode": 3,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 189,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.02729984000325203,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 48,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 118,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 125,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 146,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 153,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 189,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "episode": 4,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 189,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.02729984000325203,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 48,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 118,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 125,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 146,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 153,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 189,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "episode": 0,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 199,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030362900346517563,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 62,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 86,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 102,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 147,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 163,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 199,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "episode": 1,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 199,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030362900346517563,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 62,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 86,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 102,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 147,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 163,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 199,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "episode": 2,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 199,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030362900346517563,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 62,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 86,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 102,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 147,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 163,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 199,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "episode": 3,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 199,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030362900346517563,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 62,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 86,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 102,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 147,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 163,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 199,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "episode": 4,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 199,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030362900346517563,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 62,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 86,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 102,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 147,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 163,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 199,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "episode": 0,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 203,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030284643173217773,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 95,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 111,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 160,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 167,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 203,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "episode": 1,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 203,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030284643173217773,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 95,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 111,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 160,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 167,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 203,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "episode": 2,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 203,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030284643173217773,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 95,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 111,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 160,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 167,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 203,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "episode": 3,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 203,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030284643173217773,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 95,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 111,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 160,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 167,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 203,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "episode": 4,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 203,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030284643173217773,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 49,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 68,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 95,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 111,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 160,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 167,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 203,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "episode": 0,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 185,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030771305784583092,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 44,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 61,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 81,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 88,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 133,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 149,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 185,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "episode": 1,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 185,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030771305784583092,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 44,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 61,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 81,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 88,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 133,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 149,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 185,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "episode": 2,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 185,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030771305784583092,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 44,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 61,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 81,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 88,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 133,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 149,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 185,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "episode": 3,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 185,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030771305784583092,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 44,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 61,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 81,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 88,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 133,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 149,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 185,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "episode": 4,
+      "success": true,
+      "score": 10.0,
+      "safety": false,
+      "steps": 185,
+      "inserted": [
+        true,
+        true,
+        true
+      ],
+      "retracted": true,
+      "max_grasp_jump_m": 0.030771305784583092,
+      "gripper_open_while_grasped_frames": 0,
+      "collision_type": "",
+      "events": [
+        {
+          "step": 44,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 0.0
+        },
+        {
+          "step": 61,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 81,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 3.0
+        },
+        {
+          "step": 88,
+          "events": [
+            "inserted:1"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 133,
+          "events": [
+            "grasp_success"
+          ],
+          "score": 6.0
+        },
+        {
+          "step": 149,
+          "events": [
+            "inserted:1",
+            "all_inserted"
+          ],
+          "score": 9.0
+        },
+        {
+          "step": 185,
+          "events": [
+            "retracted",
+            "task_success"
+          ],
+          "score": 10.0
+        }
+      ]
+    }
+  ]
+}
