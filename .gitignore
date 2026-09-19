@@ -6,9 +6,9 @@ __pycache__/
 *.egg-info/
 
 # Training outputs and local datasets
-outputs/
-checkpoints/
-datasets/
+/outputs/
+/checkpoints/
+/datasets/
 *.safetensors
 *.ckpt
 *.pt
